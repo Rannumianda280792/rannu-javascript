@@ -14,4 +14,5 @@ var ulang = true;
 while (ulang) {
     console.log('Hello World!!');
     ulang = confirm('ulangi kembali?');
+    console.log('terimakasih');
 }
