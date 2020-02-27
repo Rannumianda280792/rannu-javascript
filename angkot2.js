@@ -18,8 +18,9 @@ for (var jumlahangkot = 1; jumlahangkot <= 1; jumlahangkot++) {
 
 var nilaiawal = 1;
 var banyakangkot = prompt('Jumlah Angkot Seluruh nya : ');
+var beroperasi = prompt('jumlah angkot yang dapat beroperasi : ');
 
-while (nilaiawal <= 6) {
+while (nilaiawal <= beroperasi) {
     console.log("angkot No. " + nilaiawal + " beroperasi dengan baik");
 
     nilaiawal++;
