@@ -1,4 +1,4 @@
-
+console.log("======= Hasil solusi Pertama =========");
 for (var jumlahangkot = 1; jumlahangkot <= 1; jumlahangkot++) {
     var baik = 1;
     while (baik <= 6) {
@@ -11,5 +11,24 @@ for (var jumlahangkot = 1; jumlahangkot <= 1; jumlahangkot++) {
         tdkbaik++;
 
     }
+    console.log("====================================");
+    console.log(" ");
+    console.log("======= Hasil Solusi Kedua =========");
+}
+
+var nilaiawal = 1;
+var banyakangkot = prompt('Jumlah Angkot Seluruh nya : ');
+
+while (nilaiawal <= 6) {
+    console.log("angkot No. " + nilaiawal + " beroperasi dengan baik");
+
+    nilaiawal++;
 
 }
+
+for (nilaiawal = + nilaiawal; nilaiawal <= 10; nilaiawal++) {
+    console.log("angkot No. " + nilaiawal + " sedang tidak beroperasi");
+
+}
+console.log("====================================");
+console.log(" ");
