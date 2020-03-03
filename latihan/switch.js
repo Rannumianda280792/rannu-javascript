@@ -1,15 +1,15 @@
-var banyak_angkot = prompt('input banyak angkot : ');
-for (var i = 1; i <= banyak_angkot; i++) {
-    if (i <= 6) {
-        if (i === 5) { //! ===  membandingkan tipe data variabel dan value yang sama
-            console.log('Angkot No. ' + i + ' sedang Lembur');
-        } else {
-            console.log('Angkot No. ' + i + ' Beroperasi dengan baik');
-        }
+var Makanan = prompt('silahkan pilih makanan Anda : ');
+switch (Makanan) {
+    case 'nasi': //!  di jadikan satu dikarenakan value alert Sama
+    case 'Daging':
+    case 'susu':
+        alert('Makanan SEHAT!'); //!value
+        break;
+    case 'Softdrink':
+    case 'humberger':
+        alert('makanan TIDAK SEHAT!');
+        break;
+    default:
+        alert('tidak ada list makanan yang anda pilih');
 
-    } else if (i == 8 || i == banyak_angkot) {
-        console.log('Angkot No. ' + i + ' sedang Lembur');
-    } else {
-        console.log('Angkot No. ' + i + ' Sedang tidak beroperasi');
-    }
 }
