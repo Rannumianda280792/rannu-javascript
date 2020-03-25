@@ -1,0 +1,61 @@
+*/ {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.kotakawal {
+    margin: 50px auto 50px;
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+
+}
+
+.scale {
+    display: flex;
+    background-color: burlywood;
+    padding: 50px 70px 60px 400px;
+}
+
+.scale .kotakscale {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(57, 221, 71, 0.342);
+    font-size: 14px;
+    transition: 1s;
+}
+
+.kotakscale:hover {
+    transform: scale(1.5);
+}
+
+.scale .kotakscaleX {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(57, 221, 71, 0.342);
+    font-size: 12px;
+    margin-left: 100px;
+    transition: 1s;
+}
+
+.kotakscaleX:hover {
+    transform: scaleX(2);
+}
+
+.scale .kotakscaleY {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(57, 221, 71, 0.342);
+    font-size: 14px;
+    margin-left: 100px;
+    transition: 1s;
+}
+
+.kotakscaleY:hover {
+    transform: scaleY(2);
+}
