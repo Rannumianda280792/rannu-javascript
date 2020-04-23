@@ -1,15 +1,14 @@
 div {
     padding: 3px;
+    margin: auto auto 50px;
 }
 
 .kotak1 {
     background-color: blueviolet;
-    margin: auto;
     width: 70%;
 }
 
 .kotak2 {
     background-color: aqua;
-    margin: auto;
     width: 500px;
 }
