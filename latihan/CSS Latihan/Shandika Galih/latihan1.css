@@ -5,7 +5,7 @@
 
 body {
     background-color: darkgray;
-    font: 13px/28px arial, sans-serif;
+    font: 16px/28px arial, sans-serif;
     color: #333;
 }
 
@@ -13,16 +13,18 @@ body {
     background-color: white;
     margin: auto;
     width: 800px;
+    box-sizing: border-box;
 }
 
 .header {
-    padding: 10px;
+    padding: 20px;
+    border-left: 20px solid salmon;
 }
 
 .header .judul {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
-    padding-top: 10px;
+
 }
 
 .header ul li {
@@ -30,3 +32,25 @@ body {
     margin-top: 20px;
     margin-right: 10px;
 }
+
+a {
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+.hero {
+    height: 280px;
+    background-image: url(gambar/bruno-cervera-sQ6t5v95npU-unsplash.jpg);
+    background-size: cover;
+    background-position: 100%;
+    border-top: 6px solid darkgray;
+    border-bottom: 3px solid darkgray;
+}
+
+.content {}
