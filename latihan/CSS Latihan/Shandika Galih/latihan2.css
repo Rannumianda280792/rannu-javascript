@@ -48,7 +48,7 @@ a {
     height: 280px;
     background-image: url(gambar/bruno-cervera-sQ6t5v95npU-unsplash.jpg);
     background-size: cover;
-    background-position: 100%;
+    background-position: 0 -111px;
     border-top: 6px solid darkgray;
     border-bottom: 3px solid darkgray;
 }
@@ -94,7 +94,7 @@ a {
 .secondcontent img {
     float: left;
     padding-right: 10px;
-
+    box-sizing: content-box;
 
 }
 
