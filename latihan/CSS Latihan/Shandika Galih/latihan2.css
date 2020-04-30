@@ -80,6 +80,8 @@ a {
     width: 300px;
     padding: 20px;
     float: right;
+    overflow: scroll;
+    height: 100px;
 }
 
 .secondcontent h3 {
